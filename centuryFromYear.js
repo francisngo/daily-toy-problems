@@ -16,3 +16,6 @@ Link to problem: https://codefights.com/arcade/intro/level-1/egbueTZRRL5Mm4TXN
 function centuryFromYear(year) {
   return Math.ceil(year/100);
 }
+
+console.log(centuryFromYear(1905) === 20); // True
+console.log(centuryFromYear(1700) === 17); // True
