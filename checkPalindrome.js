@@ -18,3 +18,7 @@ Link to problem: https://codefights.com/arcade/intro/level-1/s5PbmwxfECC52PWyQ
 function checkPalindrome(inputString) {
   return inputString === inputString.split('').reverse().join('');
 }
+
+console.log(checkPalindrome('aabaa') === true);
+console.log(checkPalindrome('abac') === false);
+console.log(checkPalindrome('a') === true);
