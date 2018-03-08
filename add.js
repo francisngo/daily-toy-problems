@@ -14,3 +14,6 @@ Link to problem: https://codefights.com/arcade/intro/level-1/jwr339Kq6e3LQTsfa
 function add(param1, param2) {
   return param1 + param2;
 }
+
+console.log(add(1,2) === 3); // True
+console.log(add(-1,3) === 2); // True
