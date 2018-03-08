@@ -23,3 +23,5 @@ function adjacentElementsProduct(inputArray) {
   }
   return largest;
 }
+
+console.log(adjacentElementsProduct([3, 6, -2, -5, 7, 3]) === 21); // True
